@@ -1,0 +1,70 @@
+
+extends base.pug
+
+block scripts 
+    script
+        include ../static/index.js
+    
+block style 
+    <link rel="alternate", href="https://fontawesome.com/v4/icon/facebook">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/facebook-f?s=&f=brands">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+     
+    style 
+        include ../static/contact.css
+        include ../static/base.css
+    
+
+block content 
+   
+    <div class="container">
+        <h1>Register</h1>
+        <form action="/contact" method="post" class="myform" id="form">
+            <input type="text" class="myinput" placeholder="Enter Your Name" name="name" required >
+            <input type="text" class="myinput" placeholder="Enter Your Surname" name="surname" requires>
+            <input type="tel" class="myinput" placeholder="Enter Your Phone Number" name="phonenumber" required>
+            <textarea rows="5" cols="15" class="myinput" placeholder="Enter your Address" name="address" required></textarea>
+            <div class="last">
+                <input class="subset" type="submit" value="Submit" onclick="functionstore()" id="function">
+                <input class="subset" type="reset" value="Reset">
+            </div>
+           
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

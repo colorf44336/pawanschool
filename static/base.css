@@ -1,0 +1,176 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ------------------------------navbar----------------------------------------- */
+nav ol li a {
+    text-decoration: none;
+    color: #3f729b;
+    font-weight: bold;
+
+    font-size: 20px;
+
+
+}
+
+nav ol {
+    display: flex;
+    float: right;
+
+}
+
+nav ol li {
+
+    margin: 10px 20px;
+    padding: 5px;
+    list-style: none;
+}
+
+nav ol li a:hover {
+
+    font-size: 30px;
+
+}
+
+nav {
+    background-color: aliceblue;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.image {
+    margin: 3px;
+    padding-left: 20px;
+    /* border: 2px solid aqua; */
+    border-radius: 50px;
+    height: 60px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px ;
+}
+
+.footer h4 {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: "Rubik Wet Paint";
+    font-size: 33px;
+}
+
+.footer p {
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: #7787c5;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.icons a {
+    height: 75px;
+    width: 75px;
+    background-color: #edeffa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    line-height: 88px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    overflow: hidden;
+    position: relative;
+}
+
+.icons a i {
+    transition: all 0.2s linear;
+}
+
+.footer .icons a:hover .fa-brands{
+    transform: scale(1.4);
+    color: rgb(246, 240, 240);
+
+
+}
+
+.icons a:before {
+    content: "";
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    top: 90%;
+    left: -50%;
+    background-color: #3f729b;
+
+    transform: rotate(60deg);
+
+}
+
+a:hover:before {
+    animation-name: rotation;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotation {
+    0% {
+        top: 90%;
+        left: -50%;
+    }
+
+    50% {
+        top: -60%;
+        left: -10%;
+
+    }
+
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+
+}
+
+.fa-brands_fa-2x_fa-instagram {
+    color: #fc0f03;
+}
+
+.icon1{
+    color: #3b5998;
+}
+
+.fa-brands_fa-2x_fa-d{
+    color: #9a0606;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-linkedin-square {
+    color: #83bddc;
+}
+

@@ -1,0 +1,296 @@
+        
+
+        *{
+
+            margin: 0px;
+            padding: 0px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        
+
+        /* ------------------------------navbar----------------------------------------- */
+        nav ol li a {
+            text-decoration: none;
+            color: #3f729b;
+            font-weight: bold;
+
+            font-size: 20px;
+            
+
+        }
+
+        nav ol {
+            display: flex;
+            float: right;
+
+        }
+
+        nav ol li {
+
+            margin: 10px 20px;
+            padding: 5px;
+            list-style: none;
+        }
+
+        nav ol li a:hover {
+
+            font-size: 30px;
+
+        }
+
+        nav {
+            background-color: aliceblue;
+            height: 60px;
+            position: fixed;
+            width: 100%;
+        }
+
+        .image {
+            margin: 3px;
+            padding-left: 20px;
+            /* border: 2px solid aqua; */
+            border-radius: 50px;
+            height: 60px;
+        }
+
+        /* -------------------------------------background--------------------------- */
+        .background::before {
+            background: url("/static/01.jpg") no-repeat center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.7;
+        }
+
+        .greeting {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 150px;
+        }
+
+        .wellcometext {
+            color: rgb(49, 11, 201);
+            display: flex;
+            height: 500px;
+            flex-direction: column;
+
+
+            align-items: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        hr {
+
+            height: 10px;
+            background-color: blueviolet;
+
+
+        }
+
+        /* ----------------new navabr-------------------------------------------- */
+
+
+
+        .iframeone {
+            width: 100%;
+            height: 80px;
+            background-color: orange;
+            margin-top: 4px;
+        }
+
+        .iframetwo {
+            width: 100%;
+            height: 510px;
+
+        }
+
+        /* --------------------------------about us  ------------------------------------*/
+
+
+        .priclass {
+            width: 100%;
+            height: 450px;
+            padding: 0px 0px;
+
+        }
+
+        .aboutuscontainer {
+            display: flex;
+            background-color: rgb(248, 216, 167);
+            margin: 0px;
+            padding: 0px;
+
+            height: 500px;
+
+        }
+
+        .principalimage {
+            margin-left: 40px;
+            width: 300rem;
+            height: 450px;
+
+            padding: 10px 10px;
+
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+            border: 10px solid rgb(86, 35, 35);
+
+
+        }
+
+        hr {
+            width: 100%;
+            height: 10px;
+            margin: 12px 0px;
+            background-color: orange;
+        }
+
+        .aboutustext {
+            padding-top: 100px;
+            padding-left: 25px;
+        }
+
+        .aboutustext p {
+            padding-top: 20px;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            /* font-family: 'Rubik Wet Paint', cursive; */
+        }
+
+        .aboutustext h1 {
+            font-family: 'Rubik Wet Paint', cursive;
+            text-align: center;
+            font-size: 30px;
+
+
+        }
+
+        /* ---------------------------------footer----------------------------------- */
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer h4 {
+            margin: 0px;
+            margin-top: 0px;
+            margin-bottom: 15px;
+            font-family: "Rubik Wet Paint";
+            font-size: 33px;
+        }
+
+        .footer p {
+            font-family: 'Lora', serif;
+            font-weight: 100;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
+            color: #7787c5;
+            font-size: 20px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+
+        }
+
+        .icons a {
+            height: 75px;
+            width: 75px;
+            background-color: #edeffa;
+            border-radius: 50px;
+            text-align: center;
+            margin: 10px;
+            padding: 0px;
+            line-height: 88px;
+            box-shadow: 1px 4px 2px 2px #dcdde1;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .icons a i {
+            transition: all 0.2s linear;
+        }
+
+        a:hover .fa {
+            transform: scale(1.4);
+            color: rgb(246, 240, 240);
+
+
+        }
+
+        .icons a:before {
+            content: "";
+            width: 120%;
+            height: 120%;
+            position: absolute;
+            top: 90%;
+            left: -50%;
+            background-color: #3f729b;
+
+            transform: rotate(60deg);
+
+        }
+
+        a:hover:before {
+            animation-name: rotation;
+            animation-duration: 1.5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes rotation {
+            0% {
+                top: 90%;
+                left: -50%;
+            }
+
+            50% {
+                top: -60%;
+                left: -10%;
+
+            }
+
+            100% {
+                top: -10%;
+                left: -10%;
+            }
+
+        }
+
+        .fa-instagram {
+            color: #3f729b;
+        }
+
+        .fa-facebook {
+            color: #3b5998;
+        }
+
+        .fa-youtube-play {
+            color: #cd201f;
+        }
+
+        .fa-twitter {
+            color: #55acee;
+        }
+
+        .fa-linkedin-square {
+            color: #0077b5;
+        }
+

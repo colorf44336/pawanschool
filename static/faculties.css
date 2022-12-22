@@ -1,0 +1,238 @@
+/* ---------------------------image1---------------------------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.container::before {
+    background-image: linear-gradient(360deg, rgba(63, 99, 244, 0.7), rgba(75, 78, 236, 0.7)), url(children.jpg);
+
+    content: "";
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    height: 1970px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+/* --------------------------------------image1 and text1------------------------- */
+.all1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all1 .image1 {
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+
+
+
+}
+
+.all1 .image1 img {
+    width: 400px;
+    height: 324px;
+    border: 5px solid rgb(12, 10, 10);
+    border-radius: 20px;
+
+}
+
+.all1 .text1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+.all1 .text1 h1 {
+    font-size: 30px;
+
+    font-family: 'Secular One', sans-serif;
+    ;
+
+}
+
+.all1 .text1 p {
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: rgb(58, 60, 65);
+    margin-top: 10px;
+}
+
+/* -----------------------image2 and text2----------------------------------------- */
+.all2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all2 .image2 {
+
+    margin-right: 120px;
+    margin-top: 35px;
+
+
+}
+
+.all2 .image2 img {
+    width: 400px;
+    height: 324px;
+    border: 5px solid rgb(12, 10, 10);
+    border-radius: 20px;
+
+}
+
+.all2 .text2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 63px;
+    justify-content: center;
+
+}
+
+.all2 .text2 h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Secular One', sans-serif;
+    ;
+
+}
+
+.all2 .text2 p {
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    width: 100%;
+    color: rgb(58, 60, 65);
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+/* --------------------------------------image3 and text3------------------------- */
+.all3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all3 .image3 {
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 35px;
+    padding-left: 50px;
+    padding-top: 20px;
+
+
+
+}
+
+.all3 .image3 img {
+    width: 400px;
+    height: 324px;
+    border: 5px solid rgb(12, 10, 10);
+    border-radius: 20px;
+
+}
+
+.all3 .text3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+.all3 .text3 h1 {
+    font-size: 30px;
+
+    font-family: 'Secular One', sans-serif;
+    ;
+
+}
+
+.all3 .text3 p {
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: rgb(58, 60, 65);
+    margin-top: 10px;
+}
+
+/* -----------------------image2 and text2----------------------------------------- */
+.all4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all4 .image4 {
+
+    margin-right: 120px;
+    margin-top: 35px;
+
+
+}
+
+.all4 .image4 img {
+    width: 500px;
+    height: 324px;
+    border: 5px solid rgb(12, 10, 10);
+    border-radius: 20px;
+
+}
+
+.all4 .text4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 63px;
+    justify-content: center;
+
+}
+
+.all4 .text4 h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Secular One', sans-serif;
+    ;
+
+}
+
+.all4 .text4 p {
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    width: 100%;
+    color: rgb(58, 60, 65);
+    margin-top: 10px;
+    text-align: center;
+
+}
